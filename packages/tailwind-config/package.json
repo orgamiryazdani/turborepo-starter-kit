@@ -1,0 +1,8 @@
+{
+  "name": "@repo/tailwind-config",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./styles.css"
+  }
+}
