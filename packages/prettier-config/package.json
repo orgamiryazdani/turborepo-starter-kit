@@ -1,0 +1,9 @@
+{
+  "name": "@repo/prettier-config",
+  "version": "1.0.0",
+  "exports": "./prettier.config.mts",
+  "type": "module",
+  "peerDependencies": {
+    "prettier": "3.9.6"
+  }
+}

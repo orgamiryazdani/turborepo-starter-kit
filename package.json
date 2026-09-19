@@ -5,13 +5,18 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "format": "turbo run format",
+    "check-types": "turbo run check-types",
+    "prepare": "node .husky/install.mjs"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "eslint": "^9",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.0",
     "prettier": "3.9.6",
-    "turbo": "^2.10.12",
-    "typescript": "7.0.2"
+    "turbo": "^2.10.12"
   },
   "packageManager": "pnpm@11.25.0",
   "engines": {

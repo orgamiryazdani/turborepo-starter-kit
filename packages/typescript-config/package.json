@@ -1,0 +1,11 @@
+{
+  "name": "@repo/typescript-config",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-vite.json",
+    "node.json"
+  ]
+}
